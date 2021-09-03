@@ -4,6 +4,7 @@ import Loader from './components/Loader';
 import Action from './components/Action';
 import Section from './components/Section';
 import SimpleLayout from './components/SimpleLayout';
+import WidgetWrapper from './components/WidgetWrapper';
 
 export type { BrandedComponentProps };
 export type { Branding };
@@ -11,4 +12,5 @@ export { Section };
 export { Loader };
 export { Action };
 export { SimpleLayout };
+export { WidgetWrapper };
 
