@@ -14,8 +14,8 @@ const gradText = {
 
 const iconStyle = {
   color: "#E6D5B8",
-  height: "2rem",
-  width: "2rem",
+  minHeight: "2rem",
+  minWidth: "2rem",
   marginRight: "10px",
   marginLeft: "-20px"
 }
@@ -31,10 +31,9 @@ const linkStyle = {
 const SimpleLayout: React.FC<BrandedComponentProps> = (props) =>
   <Container fluid>
     <Row style={{ minHeight: "100vh" }}>
-      <Col lg="2" className="px-5 py-5" style={{ backgroundColor: '#1C2B2D' }}>
+      <Col xl="2" className="px-5 py-5" style={{ backgroundColor: '#1C2B2D' }}>
         <a href="/"><img src={props.branding.darkAdaptedIcon} alt="Application Icon" /></a>
         <h4 style={gradText} >{props.branding.name}</h4>
-
         <a href="/" style={linkStyle}>
           <House style={iconStyle} /> Home
         </a>
