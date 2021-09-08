@@ -1,6 +1,6 @@
 {
   "name": "@innexgo/common-react-components",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Common design patterns that are reused throughout packages.",
   "main": "lib/index.js",
   "files": [
@@ -12,16 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/innexgo/frontend-auth.git"
+    "url": "git+https://github.com/innexgo/common-react-components.git"
   },
   "author": "Govind Pimpale",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/innexgo/frontend-auth/issues"
+    "url": "https://github.com/innexgo/common-react-components/issues"
   },
-  "homepage": "https://github.com/innexgo/frontend-auth#readme",
+  "homepage": "https://github.com/innexgo/common-react-components#readme",
   "peerDependencies": {
-    "@innexgo/frontend-auth-api": "^0.2.28",
     "@innexgo/frontend-common": "^0.0.10",
     "@popperjs/core": "^2.10.1",
     "@types/react": "^17.0.19",
@@ -37,7 +36,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@innexgo/frontend-auth-api": "^0.2.28",
     "@innexgo/frontend-common": "^0.0.10",
     "@popperjs/core": "^2.10.1",
     "@types/react": "^17.0.19",
