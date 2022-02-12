@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popover, OverlayTrigger, Card, CardProps } from 'react-bootstrap';
+import { Popover, PopoverBody, PopoverHeader, OverlayTrigger, Card, CardProps } from 'react-bootstrap';
 import { InfoCircle } from 'react-bootstrap-icons';
 
 type NoChildrenCardProps = Omit<CardProps, 'children' | 'title'>
@@ -19,10 +19,10 @@ function WidgetWrapper(props: WidgetWrapperProps) {
           placement="auto"
           overlay={
             <Popover id="information-tooltip">
-              <Popover.Header as="h3">Help</Popover.Header>
-              <Popover.Body>
+              <PopoverHeader as="h3">Help</PopoverHeader>
+              <PopoverBody>
                 {props.children[0]}
-              </Popover.Body>
+              </PopoverBody>
             </Popover>
           }
         >

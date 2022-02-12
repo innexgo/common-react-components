@@ -14,12 +14,15 @@ export type ActionProps = {
 function Action(props: ActionProps) {
   return <Button
     variant="link"
-    className={`text-start text-${props.variant ?? 'dark'}`}
+    className="text-start"
     onClick={props.onClick}
     hidden={props.hidden}
     disabled={props.disabled}
   >
-    <props.icon className="me-2 border rounded" style={{ width: "1.5rem", height: "1.5rem" }} />
+    <props.icon
+      className={`me-2 border rounded text-${props.variant ?? 'dark'}`}
+      style={{ width: "1.5rem", height: "1.5rem" }}
+    />
     <b>{props.title}</b>
   </Button>
 }

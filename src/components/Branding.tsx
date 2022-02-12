@@ -3,9 +3,13 @@ export default interface Branding {
   name: string,
   // Quick few word description of product
   tagline: string,
-  // url to homepage
+  // url to homepage (publically accessible)
   homeUrl: string,
-  // TOS url
+  // url to the forgot password page (publically accessible)
+  forgotPasswordUrl: string,
+  // url to the dashboard page
+  dashboardUrl: string,
+  // url to the TOS (publically accessible)
   tosUrl?: string,
   // Copyright
   copyrightOrg?: string,
