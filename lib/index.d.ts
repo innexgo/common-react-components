@@ -8,7 +8,6 @@ import SimpleLayout from './components/SimpleLayout';
 import DisplayModal from './components/DisplayModal';
 import WidgetWrapper from './components/WidgetWrapper';
 import AddButton from './components/AddButton';
-
 export type { BrandedComponentProps };
 export type { Branding };
 export { Section };
