@@ -5,10 +5,14 @@ export default interface Branding {
   tagline: string,
   // url to homepage (publically accessible)
   homeUrl: string,
+  // url to the register page (publically accessible)
+  registerUrl: string,
   // url to the forgot password page (publically accessible)
   forgotPasswordUrl: string,
   // url to the dashboard page
   dashboardUrl: string,
+  // url to the Instructions (publically accessible)
+  instructionUrl?: string,
   // url to the TOS (publically accessible)
   tosUrl?: string,
   // Copyright
