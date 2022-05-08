@@ -1,8 +1,9 @@
 import React from 'react';
 
 type SectionProps = {
-  id: string
-  name: string
+  id: string,
+  name: string,
+  children: React.ReactNode
 }
 
 const Section: React.FunctionComponent<SectionProps> = props => {
