@@ -1,6 +1,6 @@
 {
   "name": "@innexgo/common-react-components",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "Common design patterns that are reused throughout packages.",
   "main": "lib/index.js",
   "files": [
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/innexgo/common-react-components#readme",
   "peerDependencies": {
-    "@popperjs/core": "^2.11.5",
-    "@types/react": "^18.0.15",
+    "@popperjs/core": "^2.11.6",
+    "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "bootstrap": "^5.2.0",
     "formik": "^2.2.9",
@@ -30,7 +30,7 @@
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-icons": "^1.8.4",
     "react-dom": "^18.2.0",
-    "sass": "^1.54.3"
+    "sass": "^1.54.5"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
