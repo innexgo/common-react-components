@@ -8,7 +8,6 @@ type SectionProps = {
 
 const Section: React.FunctionComponent<SectionProps> = props => {
   return <section style={{
-    overflow: "hidden",
     position: "relative",
   }}>
     <span
