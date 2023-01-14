@@ -5,6 +5,7 @@ import Link from './components/Link';
 import Section from './components/Section';
 import DisplayModal from './components/DisplayModal';
 import WidgetWrapper from './components/WidgetWrapper';
+import SimplePage from './components/SimplePage';
 import AddButton from './components/AddButton';
 
 export type { BrandedComponentProps };
@@ -14,4 +15,5 @@ export { DisplayModal };
 export { Action };
 export { Link };
 export { WidgetWrapper };
+export { SimplePage };
 export { AddButton };

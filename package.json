@@ -1,6 +1,6 @@
 {
   "name": "@innexgo/common-react-components",
-  "version": "0.1.20",
+  "version": "0.1.21",
   "description": "Common design patterns that are reused throughout packages.",
   "main": "lib/index.js",
   "files": [
